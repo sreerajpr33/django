@@ -6,4 +6,6 @@ urlpatterns = [
     path('aboutus',views.about),
     path('contactus',views.contactus),
     path('course',views.courses),
+    path('smessage',views.sendmessage),
+    path('details/<c_id>',views.details),
 ]
